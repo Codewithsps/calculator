@@ -57,7 +57,7 @@
     <script>
     function handlePercent() {
         const display = document.querySelector("input[name='display']");
-        let value = display.value;
+        let value = display.value += "%";
 
         // Match the last number in the expression
         const regex = /(\d+(\.\d+)?)$/;
